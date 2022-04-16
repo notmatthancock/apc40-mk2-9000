@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME=APC40_MkII_Plus
+NAME=APC40_MkII_9000
 SCRIPTS_FOLDER="Contents/App-Resources/MIDI Remote Scripts"
 
 if [[ -z "$ABLETON_FOLDER" ]]; then
