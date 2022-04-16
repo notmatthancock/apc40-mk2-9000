@@ -24,4 +24,5 @@ while true; do
     esac
 done
 
+rm -rf "$FULL_PATH"
 cp -r ./$NAME "$FULL_PATH"
