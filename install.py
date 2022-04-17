@@ -43,7 +43,7 @@ def discover_ableton_folder() -> pathlib.Path:
 
 def main():
     ableton_folder = discover_ableton_folder()
-    install_path = ableton_folder / get_scripts_folder()
+    install_path = ableton_folder / get_scripts_folder() / CONTROLLER_NAME
     # TODO: make windows friendly
     print(f'copying {CONTROLLER_NAME} to "{install_path}"')
     os.system(f'rm -rf "{install_path}"')
